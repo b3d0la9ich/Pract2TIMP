@@ -1,0 +1,56 @@
+.scanner-container {
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+  
+  .scanner-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+  
+  .scanner-container button:hover {
+    background: #0056b3;
+  }
+  
+  .status-indicator {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.5s;
+  }
+  
+  .status-indicator.gray {
+    background: #6c757d;
+  }
+  
+  .status-indicator.green {
+    background: #28a745;
+  }
+  
+  .status-indicator.red {
+    background: #dc3545;
+  }
+  
+  .status-indicator.black {
+    background: #343a40;
+  }
+  
